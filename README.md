@@ -4,6 +4,8 @@ I use M5StickC-Plus in this demo, it has a built-in MEMS microphone and an LCD d
 
 Use [LovyanGFX](https://github.com/lovyan03/LovyanGFX) as(or like) backend driver for [lvgl](https://github.com/lvgl/lvgl), it is very simple to use, you only need to port one method.
 
+[video](https://twitter.com/its_hard_2_name/status/1526034632461807616)
+
 ```C
 static void my_disp_flush(lv_disp_drv_t *disp, const lv_area_t *area,
                           lv_color_t *color_p) {
